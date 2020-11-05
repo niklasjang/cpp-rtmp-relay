@@ -1,3 +1,0 @@
-/home/niklasjang/dev/cpp-rtmp-relay/src/relay-pool/CMakeFiles/rebuild_cache.dir
-/home/niklasjang/dev/cpp-rtmp-relay/src/relay-pool/CMakeFiles/edit_cache.dir
-/home/niklasjang/dev/cpp-rtmp-relay/src/relay-pool/CMakeFiles/app.out.dir

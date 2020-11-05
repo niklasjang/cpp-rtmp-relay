@@ -146,7 +146,7 @@ int main(int argc, char *argv[])
 				epoll_ctl(accept_epfd, EPOLL_CTL_ADD, clnt_sock, &accept_event);
 
 				// create stream
-				Stream strm(clnt_sock, 8000, 2);
+				Stream strm(clnt_sock, 1935, 2);
 				if (strm.connectMediaServer())
 				{
 					strms.insert(make_pair(clnt_sock, strm));

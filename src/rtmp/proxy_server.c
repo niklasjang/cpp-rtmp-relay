@@ -52,11 +52,11 @@ int main(int argc, char *argv[])
 			printf("Connected client %d \n", i+1);
 
 		while((str_len=read(clnt_sock, message, BUF_SIZE))!=0){
-			printf("after read\n");
+			printf("after read\n"); 
 			printf("Read Message from Client: %s", message);
 			message[str_len] = 0;
 		}
-		printf("read 0000\n");
+		printf("read 0\n");
 			
 		
 	}
